@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="col-auto">
+    <h2>Welcome, {{username}}!</h2>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h3>Create a New Post:</h3>
+
+    <form class="form new-book-form">
+      <div class="form-group">
+        <label for="book-name">Post Title:</label>
+        <input class="form-input" type="text" id="book-name" name="book-name" />
+      </div>
+      <div class="form-group">
+        <label for="book-desc">Content:</label>
+        <textarea class="form-input" id="book-desc" name="book-desc"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create</button>
+      </div>
+    </form>
+  </div>
+  
+</div>
+
+<script src="./js/posts.js"></script>
